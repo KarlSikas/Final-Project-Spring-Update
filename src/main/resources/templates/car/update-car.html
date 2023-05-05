@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car - Update</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container-fluid">
+  <div th:replace="fragments/navbar"></div>
+  <div class="container">
+    <h1 class="fw-bold">Update Car</h1>
+
+    <form action="#" th:action="@{/car/update}" method="post" th:object="${car}">
+      <div class="input-group">
+        <span class="input-group-text">Model name</span>
+        <input type="text" aria-label="Model name" class="form-control" th:field="*{modelName}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Color</span>
+        <input type="text" aria-label="Color" class="form-control" th:field="*{color}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Body type</span>
+        <input type="text" aria-label="Body type" class="form-control" th:field="*{bodyType}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Year of production</span>
+        <input type="text" aria-label="Year of production" class="form-control" th:field="*{yearOfProd}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Mileage</span>
+        <input type="text" aria-label="Mileage" class="form-control" th:field="*{mileage}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Branch</span>
+        <input type="text" aria-label="Branch" class="form-control" th:field="*{branch.address}" required>
+      </div>
+      <br/>
+      <div class="input-group">
+        <span class="input-group-text">Image</span>
+        <input type="text" aria-label="Image" class="form-control" th:field="*{imgUrl}" required>
+      </div>
+
+      <br/>
+      <input id="id" th:field="*{id}" type="hidden">
+      <input id="active" th:field="*{booked}" type="hidden">
+
+      <a class="btn btn-outline-dark" href="/car" role="button">Cancel</a>
+      <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+  </div>
+
+</div>
+
+<div th:replace="fragments/script-fragment"></div>
+</body>
+</html>

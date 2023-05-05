@@ -1,10 +1,10 @@
-package com.example.finalprojectj19spring;
+package com.example.finalprojectspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FinalProjectJ19SpringApplicationTests {
+class FinalProjectSpringApplicationTests {
 
     @Test
     void contextLoads() {
