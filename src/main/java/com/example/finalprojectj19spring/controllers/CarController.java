@@ -1,8 +1,8 @@
 package com.example.finalprojectj19spring.controllers;
 
-import com.example.finalprojectspring.exceptions.CarNotFoundException;
-import com.example.finalprojectspring.models.Car;
-import com.example.finalprojectspring.services.CarService;
+import com.example.finalprojectj19spring.exceptions.CarNotFoundException;
+import com.example.finalprojectj19spring.models.Car;
+import com.example.finalprojectj19spring.services.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

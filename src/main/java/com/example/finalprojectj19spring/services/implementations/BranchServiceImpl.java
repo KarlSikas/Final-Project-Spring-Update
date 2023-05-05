@@ -1,9 +1,9 @@
 package com.example.finalprojectj19spring.services.implementations;
 
-import com.example.finalprojectspring.exceptions.BranchNotFoundException;
-import com.example.finalprojectspring.models.Branch;
+import com.example.finalprojectj19spring.exceptions.BranchNotFoundException;
+import com.example.finalprojectj19spring.models.Branch;
 import com.example.finalprojectspring.repositories.BranchRepository;
-import com.example.finalprojectspring.services.BranchService;
+import com.example.finalprojectj19spring.services.BranchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

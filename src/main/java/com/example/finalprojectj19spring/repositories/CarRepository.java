@@ -1,8 +1,8 @@
 package com.example.finalprojectj19spring.repositories;
 
-import com.example.finalprojectspring.models.Branch;
+import com.example.finalprojectj19spring.models.Branch;
 
-import com.example.finalprojectspring.models.Car;
+import com.example.finalprojectj19spring.models.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

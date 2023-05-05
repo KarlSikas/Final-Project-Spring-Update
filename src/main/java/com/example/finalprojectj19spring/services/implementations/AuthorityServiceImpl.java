@@ -1,9 +1,9 @@
 package com.example.finalprojectj19spring.services.implementations;
 
-import com.example.finalprojectspring.exceptions.AuthorityNotFoundException;
-import com.example.finalprojectspring.models.Authority;
-import com.example.finalprojectspring.repositories.AuthorityRepository;
-import com.example.finalprojectspring.services.AuthorityService;
+import com.example.finalprojectj19spring.exceptions.AuthorityNotFoundException;
+import com.example.finalprojectj19spring.models.Authority;
+import com.example.finalprojectj19spring.repositories.AuthorityRepository;
+import com.example.finalprojectj19spring.services.AuthorityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

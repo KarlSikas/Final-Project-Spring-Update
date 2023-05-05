@@ -1,12 +1,12 @@
 package com.example.finalprojectj19spring.controllers;
 
 
-import com.example.finalprojectspring.exceptions.CarNotFoundException;
-import com.example.finalprojectspring.exceptions.UserNotFoundException;
-import com.example.finalprojectspring.models.Car;
-import com.example.finalprojectspring.models.User;
-import com.example.finalprojectspring.services.AuthorityService;
-import com.example.finalprojectspring.services.UserService;
+import com.example.finalprojectj19spring.exceptions.CarNotFoundException;
+import com.example.finalprojectj19spring.exceptions.UserNotFoundException;
+import com.example.finalprojectj19spring.models.Car;
+import com.example.finalprojectj19spring.models.User;
+import com.example.finalprojectj19spring.services.AuthorityService;
+import com.example.finalprojectj19spring.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

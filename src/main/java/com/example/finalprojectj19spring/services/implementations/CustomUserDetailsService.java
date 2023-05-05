@@ -1,8 +1,8 @@
 package com.example.finalprojectj19spring.services.implementations;
 
-import com.example.finalprojectspring.exceptions.UserNotFoundException;
-import com.example.finalprojectspring.models.User;
-import com.example.finalprojectspring.services.UserService;
+import com.example.finalprojectj19spring.exceptions.UserNotFoundException;
+import com.example.finalprojectj19spring.models.User;
+import com.example.finalprojectj19spring.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

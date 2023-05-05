@@ -1,6 +1,6 @@
 package com.example.finalprojectj19spring.repositories;
 
-import com.example.finalprojectspring.models.Authority;
+import com.example.finalprojectj19spring.models.Authority;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

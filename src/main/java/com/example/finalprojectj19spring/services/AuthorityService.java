@@ -1,9 +1,9 @@
 package com.example.finalprojectj19spring.services;
 
-import com.example.finalprojectspring.exceptions.AuthorityNotFoundException;
-import com.example.finalprojectspring.exceptions.UserNotFoundException;
-import com.example.finalprojectspring.models.Authority;
-import com.example.finalprojectspring.models.User;
+import com.example.finalprojectj19spring.exceptions.AuthorityNotFoundException;
+import com.example.finalprojectj19spring.exceptions.UserNotFoundException;
+import com.example.finalprojectj19spring.models.Authority;
+import com.example.finalprojectj19spring.models.User;
 
 import java.util.List;
 

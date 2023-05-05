@@ -1,7 +1,7 @@
 package com.example.finalprojectj19spring.services;
 
-import com.example.finalprojectspring.exceptions.BranchNotFoundException;
-import com.example.finalprojectspring.models.Branch;
+import com.example.finalprojectj19spring.exceptions.BranchNotFoundException;
+import com.example.finalprojectj19spring.models.Branch;
 
 import java.util.List;
 

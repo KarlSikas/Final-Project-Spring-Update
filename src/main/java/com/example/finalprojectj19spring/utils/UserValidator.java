@@ -1,8 +1,8 @@
 package com.example.finalprojectj19spring.utils;
 
 import com.example.finalprojectspring.exceptions.UserValidationException;
-import com.example.finalprojectspring.models.User;
-import com.example.finalprojectspring.models.UserType;
+import com.example.finalprojectj19spring.models.User;
+import com.example.finalprojectj19spring.models.UserType;
 
 /**
  * @author Karl-Erik Sirkas

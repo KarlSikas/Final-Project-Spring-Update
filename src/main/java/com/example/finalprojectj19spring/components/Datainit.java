@@ -6,22 +6,22 @@ package com.example.finalprojectj19spring.components;
  */
 
 
-import com.example.finalprojectspring.exceptions.AuthorityNotFoundException;
-import com.example.finalprojectspring.exceptions.BranchNotFoundException;
-import com.example.finalprojectspring.exceptions.CarNotFoundException;
-import com.example.finalprojectspring.exceptions.UserNotFoundException;
-import com.example.finalprojectspring.models.*;
-import com.example.finalprojectspring.services.AuthorityService;
-import com.example.finalprojectspring.services.BranchService;
-import com.example.finalprojectspring.services.CarService;
-import com.example.finalprojectspring.services.UserService;
+import com.example.finalprojectj19spring.exceptions.AuthorityNotFoundException;
+import com.example.finalprojectj19spring.exceptions.BranchNotFoundException;
+import com.example.finalprojectj19spring.exceptions.CarNotFoundException;
+import com.example.finalprojectj19spring.exceptions.UserNotFoundException;
+import com.example.finalprojectj19spring.models.*;
+import com.example.finalprojectj19spring.services.AuthorityService;
+import com.example.finalprojectj19spring.services.BranchService;
+import com.example.finalprojectj19spring.services.CarService;
+import com.example.finalprojectj19spring.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
-import static com.example.finalprojectspring.utils.Constants.Security.*;
+import static com.example.finalprojectj19spring.utils.Constants.Security.*;
 
 @Component
 public class Datainit {

@@ -1,6 +1,6 @@
 package com.example.finalprojectj19spring.repositories;
 
-import com.example.finalprojectspring.models.User;
+import com.example.finalprojectj19spring.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

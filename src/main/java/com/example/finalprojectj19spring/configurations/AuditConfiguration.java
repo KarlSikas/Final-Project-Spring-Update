@@ -1,6 +1,6 @@
 package com.example.finalprojectj19spring.configurations;
 
-import com.example.finalprojectspring.handlers.AuditAwareHandler;
+import com.example.finalprojectj19spring.handlers.AuditAwareHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;

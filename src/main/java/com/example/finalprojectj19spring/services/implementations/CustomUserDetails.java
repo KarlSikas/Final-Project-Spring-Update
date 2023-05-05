@@ -1,6 +1,6 @@
 package com.example.finalprojectj19spring.services.implementations;
 
-import com.example.finalprojectspring.models.User;
+import com.example.finalprojectj19spring.models.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
